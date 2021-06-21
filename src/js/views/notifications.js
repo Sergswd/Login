@@ -12,7 +12,7 @@ function alertTemplate(msg, className, index) {
 
 function notifyContainerTemplate() {
   return `
-    <div class="notify-container" style="position: fixed; bottom: 150px; left: 530px; z-index: 99;"></div>
+    <div class="notify-container" style="position: fixed; top: 10px; right: 10px; z-index: 99;"></div>
   `;
 }
 
